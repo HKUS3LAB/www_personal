@@ -2,6 +2,35 @@ papers:
 
   # ===== 2026 =====
 
+  - title: "Specializing Language Models for Textual Fuzzing via Reinforcement Learning"
+    authors: "Jiayi Lin, Liangcai Su, Junzhe Li, <b>Chenxiong Qian</b>"
+    venue: "S&P'26: 2026 IEEE Symposium on Security and Privacy. 2026."
+    selected: y
+    student_first: y
+
+  - title: "Scaling Agents via Continual Pre-training"
+    authors: "Liangcai Su, Zhen Zhang, Guangyu Li, Zhuo Chen, Chenxi Wang, Maojia Song, Xinyu Wang, Kuan Li, Jialong Wu, Xuanzhong Chen, Zile Qiao, Zhongwang Zhang, Huifeng Yin, Shihao Cai, Runnan Fang, Zhengwei Tao, Wenbiao Yin, Rui Ye, Yong Jiang, Ningyu Zhang, Pengjun Xie, Fei Huang, Kai Ye, Kewei Tu, <b>Chenxiong Qian</b>, Jingren Zhou"
+    venue: "ICLR'26: The Fourteenth International Conference on Learning Representations. 2026."
+    selected: y
+    student_first: y
+
+  - title: "XGuardian: Towards Explainable and Generalized AI Anti-Cheat on FPS Games"
+    authors: "Jiayi Zhang, Chenxin Sun, <b>Chenxiong Qian</b>"
+    venue: "SEC'26: The 35th USENIX Security Symposium. 2026."
+    selected: y
+    student_first: y
+
+  - title: "Bones of Contention: Exploring Query-Efficient Attacks Against Skeleton Recognition Systems"
+    authors: "Yuxin Cao, Kai Ye, Derui Wang, Minhui Xue, Hao Ge, <b>Chenxiong Qian</b>, Jin Song Dong"
+    venue: "TIFS'26: IEEE Transactions on Information Forensics and Security. 2026."
+    selected: n
+
+  - title: "Identify as a Human Does: A Pathfinder of Next-Generation Anti-Cheat Framework for First-Person Shooter Games"
+    authors: "Jiayi Zhang, Chenxin Sun, Yue Gu, Qingyu Zhang, Jiayi Lin, Xiaojiang Du, <b>Chenxiong Qian</b>"
+    venue: "TIFS'26: IEEE Transactions on Information Forensics and Security. 2026."
+    selected: n
+    student_first: y
+
   - title: "IsolatOS: Detecting Double Fetch Bugs in COTS RTOS by Re-enabling Kernel Isolation"
     authors: "Yingjie Cao, Xiaogang Zhu, Dean Sullivan, Haowei Yang, Lei Xue, Xian Li, <b>Chenxiong Qian</b>, Minrui Yan, Xiapu Luo"
     venue: "NDSS'26: The 33rd Network and Distributed System Security Symposium. 2026."
@@ -11,6 +40,7 @@ papers:
     authors: "Jiayi Lin, Changhua Luo, Mingxue Zhang, Lanteng Lin, Penghui Li, <b>Chenxiong Qian</b>"
     venue: "ICSE'26: The 48th IEEE/ACM International Conference on Software Engineering. 2026."
     selected: y
+    student_first: y
 
   # ===== 2025 =====
 
@@ -18,36 +48,49 @@ papers:
     authors: "Yingying Liu, Junzhe Li, Junzhou Fang, <b>Chenxiong Qian</b>"
     venue: "PACMI'25: Practical Adoption Challenges of ML for Systems. 2025."
     selected: n
+    student_first: y
 
   - title: "Indispensable CPU-centric Checkpointing for GPUs"
     authors: "Junzhe Li, Ran Shu, Ziyue Yang, Shuotao Xu, <b>Chenxiong Qian</b>, Yongqiang Xiong"
     venue: "APSys'25: The 16th ACM SIGOPS Asia-Pacific Workshop on Systems. 2025."
     selected: n
+    student_first: y
 
   - title: "ImportSnare: Directed \"Code Manual\" Hijacking in Retrieval-Augmented Code Generation"
     authors: "Kai Ye, Liangcai Su, <b>Chenxiong Qian</b>"
     venue: "CCS'25: The 32nd ACM Conference on Computer and Communications Security. 2025."
     selected: y
+    student_first: y
 
   - title: "How Far Are We from True Unlearnability?"
     authors: "Kai Ye, Liangcai Su, <b>Chenxiong Qian</b>"
     venue: "ICLR'25: The Thirteenth International Conference on Learning Representations. 2025."
     selected: y
+    student_first: y
 
   - title: "Daredevil: Rescue Your Flash Storage from Inflexible Kernel Storage Stack"
     authors: "Junzhe Li, Ran Shu, Jiayi Lin, Qingyu Zhang, Ziyue Yang, Jie Zhang, Yongqiang Xiong, <b>Chenxiong Qian</b>"
     venue: "EuroSys'25: Twentieth European Conference on Computer Systems. 2025."
     selected: y
+    student_first: y
 
   - title: "Automatic Library Fuzzing through API Relation Evolvement"
     authors: "Jiayi Lin, Qingyu Zhang, Junzhe Li, Chenxin Sun, Changhua Luo, Hao Zhou, <b>Chenxiong Qian</b>"
     venue: "NDSS'25: The 32nd Network and Distributed System Security Symposium. 2025."
     selected: y
+    student_first: y
+
+  - title: "WizardMerge - Save Us From Merging Without Any Clues"
+    authors: "Qingyu Zhang, Junzhe Li, Jiayi Lin, Jie Ding, Lanteng Lin, <b>Chenxiong Qian</b>"
+    venue: "TOSEM'25: Transactions on Software Engineering and Methodology. 2025."
+    selected: n
+    student_first: y
 
   - title: "CherryPicker: A Parallel Solving and State Sharing Hybrid Fuzzing System"
     authors: "Qingyu Zhang, Jiayi Lin, Chenxin Sun, <b>Chenxiong Qian</b>, Xiapu Luo"
     venue: "TDSC'25: IEEE Transactions on Dependable and Secure Computing. 2025."
     selected: n
+    student_first: y
 
   # ===== 2024 =====
 
@@ -55,6 +98,7 @@ papers:
     authors: "Chenxin Sun, Kai Ye, Liangcai Su, Jiayi Zhang, <b>Chenxiong Qian</b>"
     venue: "SEC'24: 33rd USENIX Security Symposium. 2024."
     selected: y
+    student_first: y
 
   - title: "Beyond the Surface: Uncovering the Unprotected Components of Android Against Overlay Attack"
     authors: "Hao Zhou, Shuohan Wu, <b>Chenxiong Qian</b>, Xiapu Luo, Haipeng Cai, Chao Zhang"

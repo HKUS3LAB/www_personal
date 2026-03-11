@@ -32,7 +32,7 @@ title: Home
   <h4>Publications</h4>
 
   <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
-  <sup>‡</sup> indicates equal contribution.
+  <sup>‡</sup> indicates first author is my student.
   </p>
 
   <ul class="tab-nav">
@@ -45,7 +45,7 @@ title: Home
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
+          <p class="title"><b>{{ paper.title }}</b>{% if paper.student_first %} <sup>‡</sup>{% endif %}</p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
@@ -81,7 +81,7 @@ title: Home
     <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
+          <p class="title"><b>{{ paper.title }}</b>{% if paper.student_first %} <sup>‡</sup>{% endif %}</p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
