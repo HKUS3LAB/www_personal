@@ -6,13 +6,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Martin Saveski">
-  <meta name="author" content="Martin Saveski">
-  <meta property="og:title" content="Martin Saveski" />
+  <meta name="description" content="Chenxiong Qian">
+  <meta name="author" content="Chenxiong Qian">
+  <meta property="og:title" content="Chenxiong Qian" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.martinsaveski.com" />
-  <meta property="og:site_name" content="Martin Saveski" />
-  <link rel="canonical" href="http://www.martinsaveski.com" />
+  <meta property="og:url" content="https://i.cs.hku.hk/~cqian/" />
+  <meta property="og:site_name" content="Chenxiong Qian" />
+  <link rel="canonical" href="https://i.cs.hku.hk/~cqian/" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -77,24 +77,16 @@
             <p>{{ site.data.main_info.title }}</p>
             <p>{{ site.data.main_info.email }}</p>
             <p>
-              <span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
-                <i class="fa-brands fa-bluesky" style="padding-top: 10px"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-                <i class="fa-brands fa-twitter fa-lg"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-                <i class="fa-brands fa-linkedin fa-lg"></i>
-              </span>
-
               <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-                <i class="fa-brands fa-github fa-lg"></i>
+                <i class="fa-brands fa-github fa-lg" style="padding-top: 10px"></i>
               </span>
 
               <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
                 <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('{{ site.data.main_info.orcid }}')" style="cursor: pointer">
+                <i class="ai ai-orcid ai-lg" aria-hidden="true"></i>
               </span>
             </p>
         </div>
@@ -109,6 +101,7 @@
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <!--<li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>-->
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#team" | prepend: site.baseurl }}>Team</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
         </ul>
       </div>
@@ -125,24 +118,16 @@
           {{ site.data.main_info.email }}
         </div>
         <div class="four columns">
-          <span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
-            <i class="fa-brands fa-bluesky fa-sm" style="padding-top: 10px"></i>
-          </span>
-
-          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-            <i class="fa-brands fa-twitter"></i>
-          </span>
-
-          <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-            <i class="fa-brands fa-linkedin"></i>
-          </span>
-
           <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
             <i class="fa-brands fa-github"></i>
           </span>
 
           <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
             <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          </span>
+
+          <span onclick="window.open('{{ site.data.main_info.orcid }}')" style="cursor: pointer">
+            <i class="ai ai-orcid" aria-hidden="true"></i>
           </span>
         </div>
       </div>
