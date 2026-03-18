@@ -5,12 +5,17 @@ papers:
   - title: "Specializing Language Models for Textual Fuzzing via Reinforcement Learning"
     authors: "Jiayi Lin, Liangcai Su, Junzhe Li, <b>Chenxiong Qian</b>"
     venue: "S&P'26: 2026 IEEE Symposium on Security and Privacy. 2026."
+    paper_pdf: "https://arxiv.org/abs/2509.20384"
+    code: "https://github.com/HKU-System-Security-Lab/R1-Fuzz"
+    huggingface: "https://huggingface.co/0gal1/R1-Fuzz-7B"
     selected: y
     student_first: y
 
   - title: "Scaling Agents via Continual Pre-training"
     authors: "Liangcai Su, Zhen Zhang, Guangyu Li, Zhuo Chen, Chenxi Wang, Maojia Song, Xinyu Wang, Kuan Li, Jialong Wu, Xuanzhong Chen, Zile Qiao, Zhongwang Zhang, Huifeng Yin, Shihao Cai, Runnan Fang, Zhengwei Tao, Wenbiao Yin, Rui Ye, Yong Jiang, Ningyu Zhang, Pengjun Xie, Fei Huang, Kai Ye, Kewei Tu, <b>Chenxiong Qian</b>, Jingren Zhou"
     venue: "ICLR'26: The Fourteenth International Conference on Learning Representations. 2026."
+    paper_pdf: "https://arxiv.org/abs/2509.13310"
+    blog: "https://venturebeat.com/ai/build-research-agents-without-api-costs-alibabas-offline-data-synthesis"
     selected: y
     student_first: y
 
@@ -59,18 +64,23 @@ papers:
   - title: "ImportSnare: Directed \"Code Manual\" Hijacking in Retrieval-Augmented Code Generation"
     authors: "Kai Ye, Liangcai Su, <b>Chenxiong Qian</b>"
     venue: "CCS'25: The 32nd ACM Conference on Computer and Communications Security. 2025."
+    paper_pdf: "https://arxiv.org/abs/2509.07941"
+    code: "https://github.com/jiuqu3513/ImportSnare"
+    homepage: "https://importsnare.github.io/"
     selected: y
     student_first: y
 
   - title: "How Far Are We from True Unlearnability?"
     authors: "Kai Ye, Liangcai Su, <b>Chenxiong Qian</b>"
     venue: "ICLR'25: The Thirteenth International Conference on Learning Representations. 2025."
+    paper_pdf: "https://arxiv.org/abs/2509.08058"
     selected: y
     student_first: y
 
   - title: "Daredevil: Rescue Your Flash Storage from Inflexible Kernel Storage Stack"
     authors: "Junzhe Li, Ran Shu, Jiayi Lin, Qingyu Zhang, Ziyue Yang, Jie Zhang, Yongqiang Xiong, <b>Chenxiong Qian</b>"
     venue: "EuroSys'25: Twentieth European Conference on Computer Systems. 2025."
+    code: "https://github.com/HKU-System-Security-Lab/Daredevil"
     selected: y
     student_first: y
 
@@ -83,6 +93,7 @@ papers:
   - title: "WizardMerge - Save Us From Merging Without Any Clues"
     authors: "Qingyu Zhang, Junzhe Li, Jiayi Lin, Jie Ding, Lanteng Lin, <b>Chenxiong Qian</b>"
     venue: "TOSEM'25: Transactions on Software Engineering and Methodology. 2025."
+    code: "https://github.com/HKU-System-Security-Lab/WizardMerge"
     selected: n
     student_first: y
 
@@ -97,6 +108,10 @@ papers:
   - title: "Invisibility Cloak: Proactive Defense Against Visual Game Cheating"
     authors: "Chenxin Sun, Kai Ye, Liangcai Su, Jiayi Zhang, <b>Chenxiong Qian</b>"
     venue: "SEC'24: 33rd USENIX Security Symposium. 2024."
+    paper_pdf: "https://www.usenix.org/system/files/usenixsecurity24-sun-chenxin.pdf"
+    slides: "https://www.usenix.org/system/files/usenixsecurity24_slides-sun-chenxin.pdf"
+    data: "https://drive.google.com/file/d/1MDqzO62xe4-qrpcOfdCEb5oBHq_Q783v/view"
+    homepage: "https://inviscloak.github.io/"
     selected: y
     student_first: y
 

@@ -46,15 +46,27 @@ title: Home
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
+              {% if paper.paper_pdf contains '://' %}
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+              {% else %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+              {% endif %}
             {% endif %}
 
             {% if paper.slides %}
+              {% if paper.slides contains '://' %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+              {% else %}
               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+              {% endif %}
             {% endif %}
 
             {% if paper.poster %}
+              {% if paper.poster contains '://' %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+              {% else %}
               <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+              {% endif %}
             {% endif %}
 
             {% if paper.video %}
@@ -67,6 +79,18 @@ title: Home
 
             {% if paper.data %}
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+            {% if paper.homepage %}
+              <a class="button" href="{{ paper.homepage }}" target="_blank">Homepage</a>
+            {% endif %}
+
+            {% if paper.blog %}
+              <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
+            {% endif %}
+
+            {% if paper.huggingface %}
+              <a class="button" href="{{ paper.huggingface }}" target="_blank">HuggingFace</a>
             {% endif %}
 
           </div>
@@ -82,15 +106,27 @@ title: Home
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
             {% if paper.paper_pdf %}
+              {% if paper.paper_pdf contains '://' %}
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+              {% else %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+              {% endif %}
             {% endif %}
 
             {% if paper.slides %}
+              {% if paper.slides contains '://' %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+              {% else %}
               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+              {% endif %}
             {% endif %}
 
             {% if paper.poster %}
+              {% if paper.poster contains '://' %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+              {% else %}
               <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+              {% endif %}
             {% endif %}
 
             {% if paper.video %}
@@ -103,6 +139,18 @@ title: Home
 
             {% if paper.data %}
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+            {% if paper.homepage %}
+              <a class="button" href="{{ paper.homepage }}" target="_blank">Homepage</a>
+            {% endif %}
+
+            {% if paper.blog %}
+              <a class="button" href="{{ paper.blog }}" target="_blank">Blog</a>
+            {% endif %}
+
+            {% if paper.huggingface %}
+              <a class="button" href="{{ paper.huggingface }}" target="_blank">HuggingFace</a>
             {% endif %}
 
           </div>
